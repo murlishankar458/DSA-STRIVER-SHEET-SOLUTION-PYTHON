@@ -1,0 +1,20 @@
+# Given two integers low and high, return the sum of all integers from low to high inclusive.
+# Example 1
+# Input: low = 1, high = 5
+# Output: 15
+# Explanation: 1 + 2 + 3 + 4 + 5 = 15
+
+# Method 1:
+def whileLoop(d):
+    total = 0
+    i = 0
+
+    while i < 50:
+        number = d + (i * 10)
+        total += number
+        i += 1
+
+    return total
+
+d = int(input("Enter d: "))
+print(whileLoop(d))
