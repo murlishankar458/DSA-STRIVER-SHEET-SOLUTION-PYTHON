@@ -1,0 +1,16 @@
+# n = str(input()).lower()
+
+# left = 0
+# right = len(n) - 1
+
+# while left < right:
+
+#     if n[left] != n[right]:
+#         print("Not a palindrome")
+#         break
+
+#     left += 1
+#     right -= 1
+
+# else:
+#     print("It is a Palindrome")
